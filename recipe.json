@@ -1,0 +1,1601 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "title": "Overnight Oats with Chia & Berries",
+      "category": "breakfast",
+      "image": "images/Breakfast 1.jpg",
+      "shortDescription": "Rolled oats, chia seeds, almond milk, topped with fresh berries.",
+      "ingredients": [
+        "1/2 cup rolled oats",
+        "1 tbsp chia seeds",
+        "3/4 cup almond milk",
+        "1 tbsp honey or maple syrup",
+        "1/2 cup mixed berries",
+        "1 tbsp chopped nuts (optional)"
+      ],
+      "steps": [
+        "In a jar or container, combine oats, chia seeds, and almond milk",
+        "Add honey or maple syrup and stir well",
+        "Cover and refrigerate overnight or for at least 4 hours",
+        "In the morning, top with fresh berries and nuts if desired",
+        "Enjoy cold or at room temperature"
+      ],
+      "nutrition": {
+        "Calories": "320",
+        "Protein": "10g",
+        "Carbs": "45g",
+        "Fat": "12g",
+        "Fiber": "8g"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Avocado Toast with Poached Egg",
+      "category": "breakfast",
+      "image": "images/Breakfast 2.jpg",
+      "shortDescription": "Whole-grain toast, smashed avocado, poached egg, chili flakes.",
+      "ingredients": [
+        "2 slices whole-grain bread",
+        "1 ripe avocado",
+        "2 eggs",
+        "Salt and pepper to taste",
+        "Chili flakes",
+        "1 tbsp vinegar",
+        "1 tsp olive oil"
+      ],
+      "steps": [
+        "Toast the bread until golden and crispy",
+        "Cut the avocado in half, remove the pit, and scoop the flesh into a bowl",
+        "Mash the avocado with a fork and season with salt and pepper",
+        "Bring a pot of water to a gentle simmer and add the vinegar",
+        "Crack each egg into a small bowl, then gently slide into the simmering water",
+        "Poach the eggs for 3-4 minutes until the whites are set but the yolks are still runny",
+        "Remove the eggs with a slotted spoon and drain on paper towels",
+        "Spread the mashed avocado on the toast and top with the poached eggs",
+        "Drizzle with olive oil, sprinkle with chili flakes, and serve immediately"
+      ],
+      "nutrition": {
+        "Calories": "420",
+        "Protein": "18g",
+        "Carbs": "35g",
+        "Fat": "24g",
+        "Fiber": "12g"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Green Smoothie Bowl",
+      "category": "breakfast",
+      "image": "images/Breakfast 3.jpg",
+      "shortDescription": "Spinach, banana, kiwi, almond milk, topped with granola & seeds.",
+      "ingredients": [
+        "1 cup fresh spinach",
+        "1 frozen banana",
+        "1 kiwi, peeled",
+        "1/2 cup almond milk",
+        "1 tbsp chia seeds",
+        "1/4 cup granola",
+        "1 tbsp sliced almonds",
+        "1 tsp honey (optional)"
+      ],
+      "steps": [
+        "In a blender, combine spinach, banana, kiwi, and almond milk",
+        "Blend until smooth and creamy",
+        "Pour into a bowl",
+        "Top with chia seeds, granola, sliced almonds, and a drizzle of honey if desired",
+        "Serve immediately with a spoon"
+      ],
+      "nutrition": {
+        "Calories": "380",
+        "Protein": "12g",
+        "Carbs": "58g",
+        "Fat": "14g",
+        "Fiber": "11g"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Banana Pancakes",
+      "category": "breakfast",
+      "image": "images/Breakfast 4.jpg",
+      "shortDescription": "Mashed banana, oats, egg, cinnamon, cooked on a non-stick pan.",
+      "ingredients": [
+        "1 ripe banana",
+        "2 eggs",
+        "1/4 cup rolled oats",
+        "1/2 tsp cinnamon",
+        "1/4 tsp baking powder",
+        "1 tsp coconut oil or butter for cooking",
+        "Fresh berries for serving (optional)"
+      ],
+      "steps": [
+        "In a bowl, mash the banana with a fork",
+        "Add eggs and whisk until well combined",
+        "Stir in rolled oats, cinnamon, and baking powder",
+        "Let the batter rest for 5 minutes",
+        "Heat coconut oil or butter in a non-stick pan over medium heat",
+        "Pour 1/4 cup of batter for each pancake",
+        "Cook for 2-3 minutes until bubbles form and the edges are set",
+        "Flip and cook for another 1-2 minutes until golden",
+        "Serve with fresh berries if desired"
+      ],
+      "nutrition": {
+        "Calories": "280",
+        "Protein": "12g",
+        "Carbs": "35g",
+        "Fat": "12g",
+        "Fiber": "5g"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Greek Yogurt Parfait",
+      "category": "breakfast",
+      "image": "images/Breakfast 5.jpg",
+      "shortDescription": "Yogurt layered with honey, granola, and seasonal fruits.",
+      "ingredients": [
+        "1 cup Greek yogurt",
+        "2 tbsp honey",
+        "1/4 cup granola",
+        "1/2 cup mixed berries",
+        "1 tbsp chopped nuts (optional)"
+      ],
+      "steps": [
+        "In a glass or bowl, add a layer of Greek yogurt",
+        "Drizzle with a little honey",
+        "Add a layer of mixed berries",
+        "Sprinkle with some granola",
+        "Repeat layers until all ingredients are used",
+        "Top with chopped nuts if desired",
+        "Serve immediately"
+      ],
+      "nutrition": {
+        "Calories": "320",
+        "Protein": "20g",
+        "Carbs": "45g",
+        "Fat": "8g",
+        "Fiber": "6g"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Vegetable Omelette",
+      "category": "breakfast",
+      "image": "images/Breakfast 6.jpg",
+      "shortDescription": "Eggs, spinach, mushrooms, onion, tomato, with olive oil.",
+      "ingredients": [
+        "3 eggs",
+        "1 cup fresh spinach",
+        "1/4 cup sliced mushrooms",
+        "1/4 cup diced onion",
+        "1/4 cup diced tomato",
+        "1 tbsp olive oil",
+        "Salt and pepper to taste",
+        "1 tbsp fresh herbs (parsley or chives)"
+      ],
+      "steps": [
+        "Heat olive oil in a non-stick pan over medium heat",
+        "Add onion and mushrooms and sauté for 3-4 minutes until softened",
+        "Add spinach and cook until wilted",
+        "In a bowl, whisk eggs with salt and pepper",
+        "Pour eggs over vegetables in the pan",
+        "As eggs begin to set, gently lift edges with a spatula to allow uncooked egg to flow underneath",
+        "When eggs are mostly set but still slightly runny on top, add diced tomato",
+        "Fold omelette in half and slide onto a plate",
+        "Garnish with fresh herbs and serve immediately"
+      ],
+      "nutrition": {
+        "Calories": "280",
+        "Protein": "20g",
+        "Carbs": "8g",
+        "Fat": "20g",
+        "Fiber": "3g"
+      }
+    },
+    {
+      "id": 7,
+      "title": "Peanut Butter Banana Smoothie",
+      "category": "breakfast",
+      "image": "images/Breakfast 7.jpg",
+      "shortDescription": "Protein-packed smoothie for a filling breakfast.",
+      "ingredients": [
+        "1 banana",
+        "2 tbsp peanut butter",
+        "1 cup almond milk",
+        "1 scoop protein powder (optional)",
+        "1 tbsp chia seeds",
+        "1/2 tsp cinnamon",
+        "Ice cubes as needed"
+      ],
+      "steps": [
+        "Place all ingredients in a blender",
+        "Blend until smooth and creamy",
+        "Add more almond milk if too thick, or more ice if too thin",
+        "Pour into a glass and serve immediately"
+      ],
+      "nutrition": {
+        "Calories": "350",
+        "Protein": "20g",
+        "Carbs": "35g",
+        "Fat": "18g",
+        "Fiber": "8g"
+      }
+    },
+    {
+      "id": 8,
+      "title": "Whole Grain Breakfast Wrap",
+      "category": "breakfast",
+      "image": "images/Breakfast 8.jpg",
+      "shortDescription": "Eggs, spinach, and hummus wrapped in whole wheat tortilla.",
+      "ingredients": [
+        "1 whole wheat tortilla",
+        "2 eggs",
+        "1 cup fresh spinach",
+        "2 tbsp hummus",
+        "1/4 avocado, sliced",
+        "Salt and pepper to taste",
+        "1 tsp olive oil"
+      ],
+      "steps": [
+        "Heat olive oil in a pan over medium heat",
+        "Add spinach and cook until wilted",
+        "In a bowl, whisk eggs with salt and pepper",
+        "Add eggs to the pan with spinach and scramble until cooked",
+        "Warm the tortilla in a dry pan or microwave",
+        "Spread hummus on the tortilla",
+        "Top with scrambled eggs, spinach, and avocado slices",
+        "Roll up the tortilla, tucking in the sides as you go",
+        "Cut in half and serve immediately"
+      ],
+      "nutrition": {
+        "Calories": "380",
+        "Protein": "18g",
+        "Carbs": "35g",
+        "Fat": "18g",
+        "Fiber": "9g"
+      }
+    },
+    {
+      "id": 9,
+      "title": "Quinoa & Chickpea Salad",
+      "category": "lunch",
+      "image": "images/lunch1.jpg",
+      "shortDescription": "Protein-rich quinoa tossed with chickpeas and lemon dressing.",
+      "ingredients": [
+        "1 cup cooked quinoa",
+        "1 can chickpeas, rinsed and drained",
+        "1 cucumber, diced",
+        "1 cup cherry tomatoes, halved",
+        "1/4 cup red onion, finely chopped",
+        "1/4 cup fresh parsley, chopped",
+        "2 tbsp olive oil",
+        "1 tbsp lemon juice",
+        "Salt and pepper to taste"
+      ],
+      "steps": [
+        "In a large bowl, combine cooked quinoa, chickpeas, cucumber, cherry tomatoes, red onion, and parsley",
+        "In a small bowl, whisk together olive oil, lemon juice, salt, and pepper",
+        "Pour dressing over the salad and toss to combine",
+        "Taste and adjust seasoning if needed",
+        "Serve chilled or at room temperature"
+      ],
+      "nutrition": {
+        "Calories": "420",
+        "Protein": "16g",
+        "Carbs": "65g",
+        "Fat": "14g",
+        "Fiber": "14g"
+      }
+    },
+    {
+      "id": 10,
+      "title": "Grilled Chicken Wrap",
+      "category": "lunch",
+      "image": "images/lunch2.jpg",
+      "shortDescription": "Whole wheat wrap stuffed with chicken, hummus, and veggies.",
+      "ingredients": [
+        "1 whole wheat tortilla",
+        "4 oz grilled chicken breast, sliced",
+        "2 tbsp hummus",
+        "1/4 cup shredded carrots",
+        "1/4 cup sliced cucumber",
+        "1/4 cup spinach leaves",
+        "1 tbsp feta cheese, crumbled (optional)",
+        "Salt and pepper to taste"
+      ],
+      "steps": [
+        "Warm the tortilla in a dry pan or microwave",
+        "Spread hummus evenly over the tortilla",
+        "Layer with grilled chicken, shredded carrots, cucumber, spinach, and feta cheese if using",
+        "Season with salt and pepper",
+        "Roll up the tortilla, tucking in the sides as you go",
+        "Cut in half and serve immediately"
+      ],
+      "nutrition": {
+        "Calories": "380",
+        "Protein": "30g",
+        "Carbs": "35g",
+        "Fat": "14g",
+        "Fiber": "7g"
+      }
+    },
+    {
+      "id": 11,
+      "title": "Lentil Soup",
+      "category": "lunch",
+      "image": "images/lunch3.jpg",
+      "shortDescription": "Warm, spiced soup made with lentils, carrots, and celery.",
+      "ingredients": [
+        "1 cup brown or green lentils, rinsed",
+        "1 onion, diced",
+        "2 carrots, diced",
+        "2 celery stalks, diced",
+        "3 cloves garlic, minced",
+        "1 tsp cumin",
+        "1/2 tsp turmeric",
+        "6 cups vegetable broth",
+        "2 tbsp olive oil",
+        "Salt and pepper to taste",
+        "2 tbsp lemon juice",
+        "Fresh parsley for garnish"
+      ],
+      "steps": [
+        "Heat olive oil in a large pot over medium heat",
+        "Add onion, carrots, and celery and sauté for 5-7 minutes until softened",
+        "Add garlic, cumin, and turmeric and cook for another minute until fragrant",
+        "Add lentils and vegetable broth",
+        "Bring to a boil, then reduce heat and simmer for 25-30 minutes until lentils are tender",
+        "Season with salt and pepper",
+        "Stir in lemon juice",
+        "Serve hot, garnished with fresh parsley"
+      ],
+      "nutrition": {
+        "Calories": "320",
+        "Protein": "18g",
+        "Carbs": "50g",
+        "Fat": "8g",
+        "Fiber": "20g"
+      }
+    },
+    {
+      "id": 12,
+      "title": "Brown Rice Buddha Bowl",
+      "category": "lunch",
+      "image": "images/lunch4.jpg",
+      "shortDescription": "A colorful bowl of rice, sweet potatoes, broccoli, and tahini.",
+      "ingredients": [
+        "1 cup cooked brown rice",
+        "1 cup sweet potato, cubed and roasted",
+        "1 cup broccoli florets, steamed",
+        "1/2 cup chickpeas, rinsed and drained",
+        "1/4 avocado, sliced",
+        "2 tbsp tahini",
+        "1 tbsp lemon juice",
+        "1 tsp maple syrup",
+        "Salt and pepper to taste",
+        "1 tbsp sesame seeds"
+      ],
+      "steps": [
+        "In a small bowl, whisk together tahini, lemon juice, maple syrup, salt, and pepper",
+        "Add water as needed to reach desired consistency",
+        "In a bowl, arrange brown rice, sweet potato, broccoli, chickpeas, and avocado",
+        "Drizzle with tahini sauce",
+        "Sprinkle with sesame seeds",
+        "Serve immediately"
+      ],
+      "nutrition": {
+        "Calories": "450",
+        "Protein": "14g",
+        "Carbs": "70g",
+        "Fat": "16g",
+        "Fiber": "16g"
+      }
+    },
+    {
+      "id": 13,
+      "title": "Tuna & Avocado Salad",
+      "category": "lunch",
+      "image": "images/lunch5.jpg",
+      "shortDescription": "Creamy avocado mixed with tuna and fresh veggies.",
+      "ingredients": [
+        "1 can tuna in water, drained",
+        "1 avocado, mashed",
+        "1/4 cup red onion, finely chopped",
+        "1 celery stalk, finely chopped",
+        "1 tbsp lemon juice",
+        "Salt and pepper to taste",
+        "2 cups mixed greens",
+        "1 tbsp olive oil"
+      ],
+      "steps": [
+        "In a bowl, combine tuna, mashed avocado, red onion, celery, and lemon juice",
+        "Season with salt and pepper and mix well",
+        "Arrange mixed greens on a plate or in a bowl",
+        "Top with tuna and avocado mixture",
+        "Drizzle with olive oil",
+        "Serve immediately"
+      ],
+      "nutrition": {
+        "Calories": "380",
+        "Protein": "30g",
+        "Carbs": "18g",
+        "Fat": "22g",
+        "Fiber": "10g"
+      }
+    },
+    {
+      "id": 14,
+      "title": "Whole Wheat Veggie Sandwich",
+      "category": "lunch",
+      "image": "images/lunch6.jpg",
+      "shortDescription": "Cucumber, tomato, spinach, and hummus in hearty bread.",
+      "ingredients": [
+        "2 slices whole wheat bread",
+        "2 tbsp hummus",
+        "1/4 cup cucumber, sliced",
+        "1/4 cup tomato, sliced",
+        "1/2 cup spinach leaves",
+        "1/4 red onion, thinly sliced",
+        "Salt and pepper to taste"
+      ],
+      "steps": [
+        "Toast the bread if desired",
+        "Spread hummus on both slices of bread",
+        "Layer cucumber, tomato, spinach, and red onion on one slice",
+        "Season with salt and pepper",
+        "Top with the second slice of bread",
+        "Cut in half and serve immediately"
+      ],
+      "nutrition": {
+        "Calories": "280",
+        "Protein": "12g",
+        "Carbs": "45g",
+        "Fat": "8g",
+        "Fiber": "10g"
+      }
+    },
+    {
+      "id": 15,
+      "title": "Mediterranean Couscous Salad",
+      "category": "lunch",
+      "image": "images/lunch7.jpg",
+      "shortDescription": "Couscous with cucumber, tomato, olives, and feta",
+      "ingredients": [
+        "1 cup cooked couscous",
+        "1/2 cucumber, diced",
+        "1 cup cherry tomatoes, halved",
+        "1/4 cup kalamata olives, pitted and halved",
+        "1/4 cup red onion, finely chopped",
+        "1/4 cup feta cheese, crumbled",
+        "2 tbsp olive oil",
+        "1 tbsp lemon juice",
+        "1 tbsp fresh parsley, chopped",
+        "Salt and pepper to taste"
+      ],
+      "steps": [
+        "In a large bowl, combine couscous, cucumber, cherry tomatoes, olives, red onion, and parsley",
+        "In a small bowl, whisk together olive oil, lemon juice, salt, and pepper",
+        "Pour dressing over the salad and toss to combine",
+        "Gently fold in feta cheese",
+        "Taste and adjust seasoning if needed",
+        "Serve chilled or at room temperature"
+      ],
+      "nutrition": {
+        "Calories": "380",
+        "Protein": "12g",
+        "Carbs": "55g",
+        "Fat": "15g",
+        "Fiber": "6g"
+      }
+    },
+    {
+      "id": 16,
+      "title": "Sweet Potato & Black Bean Bowl",
+      "category": "lunch",
+      "image": "images/lunch8.jpg",
+      "shortDescription": "A high-fiber, filling bowl with a spicy kick.",
+      "ingredients": [
+        "1 medium sweet potato, cubed and roasted",
+        "1/2 cup black beans, rinsed and drained",
+        "1/4 cup corn kernels",
+        "1/4 cup avocado, diced",
+        "2 tbsp salsa",
+        "1 tbsp Greek yogurt or sour cream",
+        "1 tsp lime juice",
+        "1/4 tsp cumin",
+        "1/4 tsp chili powder",
+        "Salt and pepper to taste",
+        "Fresh cilantro for garnish"
+      ],
+      "steps": [
+        "In a bowl, combine sweet potato, black beans, corn, and avocado",
+        "In a small bowl, mix together salsa, Greek yogurt, lime juice, cumin, chili powder, salt, and pepper",
+        "Drizzle the sauce over the sweet potato mixture",
+        "Toss gently to combine",
+        "Garnish with fresh cilantro",
+        "Serve immediately"
+      ],
+      "nutrition": {
+        "Calories": "380",
+        "Protein": "14g",
+        "Carbs": "70g",
+        "Fat": "10g",
+        "Fiber": "16g"
+      }
+    },
+    {
+      "id": 17,
+      "title": "Baked Salmon with Veggies",
+      "category": "dinner",
+      "image": "images/Dinner 1.jpg",
+      "shortDescription": "Salmon baked with garlic, lemon, and roasted broccoli.",
+      "ingredients": [
+        "2 salmon fillets",
+        "1 cup broccoli florets",
+        "1 tbsp olive oil",
+        "2 cloves garlic, minced",
+        "1 lemon, sliced",
+        "1 tsp dried dill",
+        "Salt and pepper to taste"
+      ],
+      "steps": [
+        "Preheat oven to 400°F (200°C)",
+        "Place salmon fillets on a baking sheet lined with parchment paper",
+        "Arrange broccoli florets around the salmon",
+        "Drizzle olive oil over salmon and broccoli",
+        "Sprinkle with minced garlic, dried dill, salt, and pepper",
+        "Top salmon with lemon slices",
+        "Bake for 15-20 minutes until salmon is cooked through and broccoli is tender",
+        "Serve immediately"
+      ],
+      "nutrition": {
+        "Calories": "380",
+        "Protein": "35g",
+        "Carbs": "8g",
+        "Fat": "24g",
+        "Fiber": "4g"
+      }
+    },
+    {
+      "id": 18,
+      "title": "Vegetable Stir-Fry with Tofu",
+      "category": "dinner",
+      "image": "images/Dinner 2.jpg",
+      "shortDescription": "Crisp veggies and tofu tossed in sesame soy sauce.",
+      "ingredients": [
+        "1 block firm tofu, pressed and cubed",
+        "2 cups mixed vegetables (bell peppers, broccoli, carrots, snap peas)",
+        "2 cloves garlic, minced",
+        "1 tbsp ginger, grated",
+        "3 tbsp soy sauce",
+        "1 tbsp sesame oil",
+        "1 tbsp vegetable oil",
+        "1 tsp cornstarch",
+        "2 tbsp water",
+        "Sesame seeds for garnish"
+      ],
+      "steps": [
+        "Heat vegetable oil in a wok or large pan over medium-high heat",
+        "Add tofu and cook until golden on all sides, then remove from pan",
+        "Add garlic and ginger and stir for 30 seconds",
+        "Add vegetables and stir-fry for 5-7 minutes until crisp-tender",
+        "In a small bowl, whisk together soy sauce, sesame oil, cornstarch, and water",
+        "Return tofu to the pan and pour sauce over vegetables and tofu",
+        "Cook for another 2 minutes until sauce thickens",
+        "Sprinkle with sesame seeds and serve immediately"
+      ],
+      "nutrition": {
+        "Calories": "320",
+        "Protein": "20g",
+        "Carbs": "20g",
+        "Fat": "18g",
+        "Fiber": "6g"
+      }
+    },
+    {
+      "id": 19,
+      "title": "Stuffed Bell Peppers",
+      "category": "dinner",
+      "image": "images/Dinner 3.jpg",
+      "shortDescription": "Peppers filled with rice, beans, and fresh herbs.",
+      "ingredients": [
+        "4 bell peppers, tops removed and seeds removed",
+        "1 cup cooked rice",
+        "1 can black beans, rinsed and drained",
+        "1/2 cup corn kernels",
+        "1/4 cup onion, diced",
+        "2 cloves garlic, minced",
+        "1 tsp cumin",
+        "1/2 tsp chili powder",
+        "1/2 cup tomato sauce",
+        "1/4 cup cheese, shredded (optional)",
+        "Salt and pepper to taste",
+        "Fresh cilantro for garnish"
+      ],
+      "steps": [
+        "Preheat oven to 375°F (190°C)",
+        "In a bowl, combine rice, black beans, corn, onion, garlic, cumin, chili powder, tomato sauce, salt, and pepper",
+        "Fill each bell pepper with the rice mixture",
+        "Place peppers in a baking dish and add a small amount of water to the bottom of the dish",
+        "Cover with foil and bake for 30 minutes",
+        "Remove foil, sprinkle with cheese if using, and bake for another 10-15 minutes until peppers are tender",
+        "Garnish with fresh cilantro and serve immediately"
+      ],
+      "nutrition": {
+        "Calories": "320",
+        "Protein": "14g",
+        "Carbs": "60g",
+        "Fat": "6g",
+        "Fiber": "14g"
+      }
+    },
+    {
+      "id": 20,
+      "title": "Grilled Chicken with Quinoa",
+      "category": "dinner",
+      "image": "images/Dinner 4.jpg",
+      "shortDescription": "Juicy chicken paired with quinoa and sautéed spinach",
+      "ingredients": [
+        "2 chicken breasts",
+        "1 cup cooked quinoa",
+        "2 cups fresh spinach",
+        "1 tbsp olive oil",
+        "2 cloves garlic, minced",
+        "1 tsp dried herbs (thyme, rosemary, or oregano)",
+        "1 tbsp lemon juice",
+        "Salt and pepper to taste"
+      ],
+      "steps": [
+        "Season chicken breasts with salt, pepper, and dried herbs",
+        "Heat olive oil in a grill pan or skillet over medium-high heat",
+        "Cook chicken for 6-8 minutes per side until cooked through",
+        "Remove chicken from pan and let rest",
+        "In the same pan, add garlic and spinach and sauté until spinach is wilted",
+        "Stir in lemon juice",
+        "Serve chicken with quinoa and sautéed spinach"
+      ],
+      "nutrition": {
+        "Calories": "420",
+        "Protein": "40g",
+        "Carbs": "35g",
+        "Fat": "14g",
+        "Fiber": "6g"
+      }
+    },
+    {
+      "id": 21,
+      "title": "Zucchini Noodles with Pesto",
+      "category": "dinner",
+      "image": "images/Dinner 5.jpg",
+      "shortDescription": "Low-carb zucchini noodles tossed with basil pesto.",
+      "ingredients": [
+        "2 medium zucchinis, spiralized",
+        "1/4 cup basil pesto",
+        "1 cup cherry tomatoes, halved",
+        "2 tbsp pine nuts, toasted",
+        "1/4 cup parmesan cheese, grated",
+        "1 tbsp olive oil",
+        "Salt and pepper to taste",
+        "Fresh basil for garnish"
+      ],
+      "steps": [
+        "Heat olive oil in a large pan over medium heat",
+        "Add zucchini noodles and sauté for 2-3 minutes until just tender",
+        "Add cherry tomatoes and cook for another minute",
+        "Remove from heat and toss with basil pesto",
+        "Season with salt and pepper",
+        "Top with toasted pine nuts, parmesan cheese, and fresh basil",
+        "Serve immediately"
+      ],
+      "nutrition": {
+        "Calories": "320",
+        "Protein": "14g",
+        "Carbs": "12g",
+        "Fat": "26g",
+        "Fiber": "5g"
+      }
+    },
+    {
+      "id": 22,
+      "title": "Chickpea & Spinach Curry",
+      "category": "dinner",
+      "image": "images/Dinner 6.jpg",
+      "shortDescription": "Creamy coconut curry with chickpeas and spinach.",
+      "ingredients": [
+        "1 can chickpeas, rinsed and drained",
+        "2 cups fresh spinach",
+        "1 can coconut milk",
+        "1 onion, diced",
+        "3 cloves garlic, minced",
+        "1 tbsp ginger, grated",
+        "1 tsp turmeric",
+        "1 tsp cumin",
+        "1/2 tsp cayenne pepper (optional)",
+        "1 tbsp vegetable oil",
+        "Salt to taste",
+        "Cooked rice for serving",
+        "Fresh cilantro for garnish"
+      ],
+      "steps": [
+        "Heat vegetable oil in a large pan over medium heat",
+        "Add onion and sauté until softened",
+        "Add garlic, ginger, turmeric, cumin, and cayenne pepper and cook for another minute",
+        "Add chickpeas and coconut milk and simmer for 10 minutes",
+        "Add spinach and cook until wilted",
+        "Season with salt",
+        "Serve over rice and garnish with fresh cilantro"
+      ],
+      "nutrition": {
+        "Calories": "380",
+        "Protein": "14g",
+        "Carbs": "30g",
+        "Fat": "24g",
+        "Fiber": "10g"
+      }
+    },
+    {
+      "id": 23,
+      "title": "Turkey Meatballs with Spaghetti",
+      "category": "dinner",
+      "image": "images/Dinner 7.jpg",
+      "shortDescription": "Lean turkey meatballs served over whole-wheat pasta.",
+      "ingredients": [
+        "1 lb ground turkey",
+        "1/2 cup breadcrumbs",
+        "1 egg",
+        "2 cloves garlic, minced",
+        "1 tbsp fresh parsley, chopped",
+        "1 tsp dried oregano",
+        "Salt and pepper to taste",
+        "2 cups whole-wheat spaghetti, cooked",
+        "1 cup marinara sauce",
+        "1/4 cup parmesan cheese, grated"
+      ],
+      "steps": [
+        "Preheat oven to 400°F (200°C)",
+        "In a bowl, combine ground turkey, breadcrumbs, egg, garlic, parsley, oregano, salt, and pepper",
+        "Form into meatballs and place on a baking sheet",
+        "Bake for 20-25 minutes until cooked through",
+        "In a pan, heat marinara sauce",
+        "Add meatballs to sauce and simmer for 5 minutes",
+        "Serve meatballs and sauce over spaghetti",
+        "Top with parmesan cheese"
+      ],
+      "nutrition": {
+        "Calories": "480",
+        "Protein": "35g",
+        "Carbs": "55g",
+        "Fat": "14g",
+        "Fiber": "8g"
+      }
+    },
+    {
+      "id": 24,
+      "title": "Baked Eggplant Parmesan",
+      "category": "dinner",
+      "image": "images/Dinner 8.jpg",
+      "shortDescription": "Lighter baked version of the Italian classic.",
+      "ingredients": [
+        "1 large eggplant, sliced into 1/2-inch rounds",
+        "1 cup breadcrumbs",
+        "1/2 cup parmesan cheese, grated",
+        "2 eggs, beaten",
+        "2 cups marinara sauce",
+        "1 cup mozzarella cheese, shredded",
+        "1/4 cup fresh basil, chopped",
+        "2 tbsp olive oil",
+        "Salt and pepper to taste"
+      ],
+      "steps": [
+        "Preheat oven to 375°F (190°C)",
+        "Arrange eggplant slices on a baking sheet and sprinkle with salt",
+        "Let sit for 20 minutes, then pat dry",
+        "In a shallow dish, combine breadcrumbs and parmesan cheese",
+        "Dip each eggplant slice in beaten eggs, then coat with breadcrumb mixture",
+        "Heat olive oil in a large skillet over medium heat",
+        "Cook eggplant slices for 2-3 minutes per side until golden",
+        "In a baking dish, spread a layer of marinara sauce",
+        "Arrange a layer of eggplant slices over sauce",
+        "Sprinkle with mozzarella cheese",
+        "Repeat layers, ending with sauce and mozzarella",
+        "Bake for 25-30 minutes until bubbly and golden",
+        "Garnish with fresh basil and serve immediately"
+      ],
+      "nutrition": {
+        "Calories": "380",
+        "Protein": "20g",
+        "Carbs": "40g",
+        "Fat": "18g",
+        "Fiber": "12g"
+      }
+    },
+    {
+      "id": 25,
+      "title": "Energy Balls",
+      "category": "snacks",
+      "image": "images/snack 1.jpg",
+      "shortDescription": "Bite-sized snacks made with oats, dates, and peanut butter.",
+      "ingredients": [
+        "1 cup rolled oats",
+        "1 cup pitted dates",
+        "1/2 cup peanut butter",
+        "1/3 cup honey or maple syrup",
+        "1/3 cup mini chocolate chips or cacao nibs",
+        "1/3 cup chopped nuts or seeds",
+        "1 tsp vanilla extract",
+        "1/2 cup shredded coconut (optional)"
+      ],
+      "steps": [
+        "In a food processor, combine oats and dates and pulse until finely chopped",
+        "Add peanut butter, honey or maple syrup, vanilla extract, and process until well combined",
+        "Transfer to a bowl and stir in chocolate chips or cacao nibs and chopped nuts or seeds",
+        "If using, place shredded coconut in a shallow dish",
+        "Roll mixture into 1-inch balls",
+        "Optional: roll balls in shredded coconut",
+        "Refrigerate for at least 30 minutes before serving",
+        "Store in an airtight container in the refrigerator for up to 2 weeks"
+      ],
+      "nutrition": {
+        "Calories": "150",
+        "Protein": "4g",
+        "Carbs": "20g",
+        "Fat": "7g",
+        "Fiber": "2g"
+      }
+    },
+    {
+      "id": 26,
+      "title": "Chia Pudding",
+      "category": "snacks",
+      "image": "images/snack 2.jpg",
+      "shortDescription": "Chia seeds soaked in almond milk, topped with fruit.",
+      "ingredients": [
+        "3 tbsp chia seeds",
+        "1 cup almond milk (or any milk of choice)",
+        "1 tbsp honey or maple syrup",
+        "1/2 tsp vanilla extract",
+        "1/2 cup mixed berries or sliced fruit",
+        "1 tbsp chopped nuts or seeds"
+      ],
+      "steps": [
+        "In a jar or container, combine chia seeds, almond milk, honey or maple syrup, and vanilla extract",
+        "Stir well until fully combined",
+        "Cover and refrigerate for at least 4 hours or overnight",
+        "Stir again before serving to break up any clumps",
+        "Top with mixed berries or sliced fruit and chopped nuts or seeds",
+        "Serve chilled"
+      ],
+      "nutrition": {
+        "Calories": "220",
+        "Protein": "6g",
+        "Carbs": "25g",
+        "Fat": "12g",
+        "Fiber": "8g"
+      }
+    },
+    {
+      "id": 27,
+      "title": "Greek Yogurt Fruit Dip",
+      "category": "snacks",
+      "image": "images/snack 3.jpg",
+      "shortDescription": "Yogurt sweetened with honey, served with apple slices.",
+      "ingredients": [
+        "1 cup Greek yogurt",
+        "2 tbsp honey",
+        "1/2 tsp vanilla extract",
+        "1/4 tsp cinnamon",
+        "2 apples, sliced",
+        "1 cup mixed berries (optional)"
+      ],
+      "steps": [
+        "In a small bowl, combine Greek yogurt, honey, vanilla extract, and cinnamon",
+        "Stir until smooth and well combined",
+        "Transfer to a serving dish",
+        "Arrange apple slices and mixed berries on a plate",
+        "Serve immediately or refrigerate until ready to serve"
+      ],
+      "nutrition": {
+        "Calories": "180",
+        "Protein": "12g",
+        "Carbs": "30g",
+        "Fat": "2g",
+        "Fiber": "5g"
+      }
+    },
+    {
+      "id": 28,
+      "title": "Roasted Chickpeas",
+      "category": "snacks",
+      "image": "images/snack 4.jpg",
+      "shortDescription": "Crispy, spiced chickpeas baked to perfection.",
+      "ingredients": [
+        "1 can chickpeas, rinsed and drained",
+        "1 tbsp olive oil",
+        "1/2 tsp paprika",
+        "1/2 tsp cumin",
+        "1/4 tsp garlic powder",
+        "1/4 tsp salt",
+        "1/8 tsp cayenne pepper (optional)"
+      ],
+      "steps": [
+        "Preheat oven to 400°F (200°C)",
+        "Pat chickpeas very dry with paper towels",
+        "In a bowl, combine chickpeas, olive oil, paprika, cumin, garlic powder, salt, and cayenne pepper",
+        "Toss to coat evenly",
+        "Spread chickpeas in a single layer on a baking sheet",
+        "Roast for 20-30 minutes, shaking the pan occasionally, until crispy",
+        "Let cool completely before serving",
+        "Store in an airtight container at room temperature for up to 3 days"
+      ],
+      "nutrition": {
+        "Calories": "180",
+        "Protein": "8g",
+        "Carbs": "25g",
+        "Fat": "6g",
+        "Fiber": "7g"
+      }
+    },
+    {
+      "id": 29,
+      "title": "Apple Nachos",
+      "category": "snacks",
+      "image": "images/snack 5.jpg",
+      "shortDescription": "Apple slices drizzled with peanut butter and dark chocolate.",
+      "ingredients": [
+        "2 apples, cored and sliced",
+        "2 tbsp peanut butter",
+        "2 tbsp dark chocolate chips",
+        "1 tbsp shredded coconut",
+        "1 tbsp chopped nuts"
+      ],
+      "steps": [
+        "Arrange apple slices on a plate in a single layer",
+        "In a small microwave-safe bowl, melt peanut butter for 15-20 seconds until drizzling consistency",
+        "Drizzle peanut butter over apple slices",
+        "In the same bowl, melt dark chocolate chips for 20-30 seconds, stirring until smooth",
+        "Drizzle chocolate over apple slices",
+        "Sprinkle with shredded coconut and chopped nuts",
+        "Serve immediately"
+      ],
+      "nutrition": {
+        "Calories": "280",
+        "Protein": "6g",
+        "Carbs": "35g",
+        "Fat": "15g",
+        "Fiber": "7g"
+      }
+    },
+    {
+      "id": 30,
+      "title": "Frozen Yogurt Bark",
+      "category": "snacks",
+      "image": "images/snack 6.jpg",
+      "shortDescription": "Yogurt topped with berries and nuts, frozen into a crunchy treat.",
+      "ingredients": [
+        "2 cups Greek yogurt",
+        "2 tbsp honey or maple syrup",
+        "1/2 tsp vanilla extract",
+        "1/2 cup mixed berries",
+        "2 tbsp chopped nuts or seeds",
+        "1 tbsp shredded coconut (optional)"
+      ],
+      "steps": [
+        "In a bowl, combine Greek yogurt, honey or maple syrup, and vanilla extract",
+        "Stir until well combined",
+        "Line a baking sheet with parchment paper",
+        "Spread yogurt mixture in an even layer on the prepared baking sheet",
+        "Sprinkle with mixed berries, chopped nuts or seeds, and shredded coconut if using",
+        "Freeze for at least 3 hours or until firm",
+        "Break into pieces and serve immediately",
+        "Store in an airtight container in the freezer for up to 1 month"
+      ],
+      "nutrition": {
+        "Calories": "120",
+        "Protein": "8g",
+        "Carbs": "15g",
+        "Fat": "4g",
+        "Fiber": "2g"
+      }
+    },
+    {
+      "id": 31,
+      "title": "Dark Chocolate Strawberries",
+      "category": "snacks",
+      "image": "images/snack 7.jpg",
+      "shortDescription": "Juicy strawberries dipped in antioxidant-rich dark chocolate.",
+      "ingredients": [
+        "1 cup strawberries, washed and dried",
+        "1/2 cup dark chocolate chips",
+        "1 tsp coconut oil",
+        "1 tbsp chopped nuts or shredded coconut (optional)"
+      ],
+      "steps": [
+        "Line a baking sheet with parchment paper",
+        "In a microwave-safe bowl, combine dark chocolate chips and coconut oil",
+        "Microwave for 30 seconds, then stir",
+        "Continue microwaving in 15-second intervals, stirring between each, until chocolate is smooth",
+        "Holding each strawberry by the stem, dip into chocolate, coating about two-thirds of the berry",
+        "Allow excess chocolate to drip off",
+        "Place on prepared baking sheet",
+        "If using, sprinkle with chopped nuts or shredded coconut",
+        "Refrigerate for at least 30 minutes until chocolate is set",
+        "Serve chilled or at room temperature"
+      ],
+      "nutrition": {
+        "Calories": "100",
+        "Protein": "1g",
+        "Carbs": "12g",
+        "Fat": "6g",
+        "Fiber": "2g"
+      }
+    },
+    {
+      "id": 32,
+      "title": "Healthy Oatmeal Cookies",
+      "category": "snacks",
+      "image": "images/snack 8.jpg",
+      "shortDescription": "Soft cookies made with oats, honey, and banana.",
+      "ingredients": [
+        "2 ripe bananas, mashed",
+        "1/4 cup honey or maple syrup",
+        "1/4 cup coconut oil, melted",
+        "1 egg",
+        "1 tsp vanilla extract",
+        "1 1/2 cups rolled oats",
+        "1/2 cup whole wheat flour",
+        "1/2 tsp baking soda",
+        "1/2 tsp cinnamon",
+        "1/4 cup dark chocolate chips or raisins"
+      ],
+      "steps": [
+        "Preheat oven to 350°F (175°C)",
+        "Line a baking sheet with parchment paper",
+        "In a bowl, combine mashed bananas, honey or maple syrup, coconut oil, egg, and vanilla extract",
+        "In another bowl, whisk together rolled oats, whole wheat flour, baking soda, and cinnamon",
+        "Add dry ingredients to wet ingredients and stir until just combined",
+        "Fold in dark chocolate chips or raisins",
+        "Drop tablespoon-sized balls of dough onto prepared baking sheet",
+        "Flatten slightly with the back of a spoon",
+        "Bake for 12-15 minutes until golden brown",
+        "Cool on baking sheet for 5 minutes, then transfer to a wire rack to cool completely"
+      ],
+      "nutrition": {
+        "Calories": "120",
+        "Protein": "3g",
+        "Carbs": "18g",
+        "Fat": "5g",
+        "Fiber": "2g"
+      }
+    },
+    {
+      "id": 33,
+      "title": "Egg Muffins",
+      "category": "protein",
+      "image": "images/HP 1.JPG",
+      "shortDescription": "Mini baked omelettes packed with veggies and protein.",
+      "ingredients": [
+        "12 eggs",
+        "1 cup milk of choice",
+        "1 cup chopped vegetables (bell peppers, spinach, onions, mushrooms)",
+        "1/2 cup shredded cheese",
+        "Salt and pepper to taste",
+        "1 tsp dried herbs (optional)"
+      ],
+      "steps": [
+        "Preheat oven to 375°F (190°C)",
+        "Grease a muffin tin well",
+        "In a bowl, whisk together eggs, milk, salt, pepper, and dried herbs if using",
+        "Stir in chopped vegetables and cheese",
+        "Pour egg mixture into muffin cups, filling each about three-quarters full",
+        "Bake for 18-20 minutes until set and lightly golden",
+        "Let cool for 5 minutes before removing from tin",
+        "Serve warm or refrigerate for up to 4 days"
+      ],
+      "nutrition": {
+        "Calories": "100",
+        "Protein": "8g",
+        "Carbs": "3g",
+        "Fat": "6g",
+        "Fiber": "1g"
+      }
+    },
+    {
+      "id": 34,
+      "title": "Tuna Salad with Avocado",
+      "category": "protein",
+      "image": "images/HP 2.jpg",
+      "shortDescription": "Tuna mixed with avocado and lemon for a creamy protein boost.",
+      "ingredients": [
+        "1 can tuna in water, drained",
+        "1 avocado, mashed",
+        "1 tbsp lemon juice",
+        "1 celery stalk, finely chopped",
+        "1/4 red onion, finely chopped",
+        "Salt and pepper to taste",
+        "Lettuce leaves or whole grain bread for serving"
+      ],
+      "steps": [
+        "In a bowl, combine tuna, mashed avocado, and lemon juice",
+        "Add celery and red onion and mix well",
+        "Season with salt and pepper to taste",
+        "Serve in lettuce leaves for a low-carb option or on whole grain bread",
+        "Can be stored in an airtight container in the refrigerator for up to 2 days"
+      ],
+      "nutrition": {
+        "Calories": "280",
+        "Protein": "25g",
+        "Carbs": "10g",
+        "Fat": "18g",
+        "Fiber": "8g"
+      }
+    },
+    {
+      "id": 35,
+      "title": "Grilled Turkey Burgers",
+      "category": "protein",
+      "image": "images/HP 3.jpg",
+      "shortDescription": "Juicy lean turkey patties wrapped in lettuce.",
+      "ingredients": [
+        "1 lb ground turkey",
+        "1 egg",
+        "1/4 cup breadcrumbs",
+        "1/4 cup onion, finely chopped",
+        "2 cloves garlic, minced",
+        "1 tsp Worcestershire sauce",
+        "Salt and pepper to taste",
+        "Lettuce leaves for serving",
+        "Tomato slices for serving",
+        "Avocado slices for serving"
+      ],
+      "steps": [
+        "In a bowl, combine ground turkey, egg, breadcrumbs, onion, garlic, Worcestershire sauce, salt, and pepper",
+        "Mix gently until just combined",
+        "Form into 4 patties",
+        "Heat a grill or grill pan over medium-high heat",
+        "Cook patties for 5-6 minutes per side until cooked through",
+        "Serve in lettuce leaves with tomato and avocado slices"
+      ],
+      "nutrition": {
+        "Calories": "250",
+        "Protein": "30g",
+        "Carbs": "6g",
+        "Fat": "12g",
+        "Fiber": "2g"
+      }
+    },
+    {
+      "id": 36,
+      "title": "Protein Smoothie",
+      "category": "protein",
+      "image": "images/HP 4.jpg",
+      "shortDescription": "Banana, protein powder, and nut butter blended into a shake.",
+      "ingredients": [
+        "1 scoop protein powder",
+        "1 banana",
+        "1 tbsp almond butter or peanut butter",
+        "1 cup almond milk or milk of choice",
+        "1/2 cup ice",
+        "1 tbsp chia seeds or flax seeds (optional)"
+      ],
+      "steps": [
+        "Place all ingredients in a blender",
+        "Blend until smooth and creamy",
+        "Add more milk if too thick, or more ice if too thin",
+        "Pour into a glass and serve immediately"
+      ],
+      "nutrition": {
+        "Calories": "350",
+        "Protein": "30g",
+        "Carbs": "35g",
+        "Fat": "12g",
+        "Fiber": "8g"
+      }
+    },
+    {
+      "id": 37,
+      "title": "Chicken & Vegetable Skewers",
+      "category": "protein",
+      "image": "images/HP 5.jpg",
+      "shortDescription": "Grilled skewers loaded with chicken and colorful veggies.",
+      "ingredients": [
+        "1 lb chicken breast, cut into 1-inch cubes",
+        "1 bell pepper, cut into 1-inch pieces",
+        "1 zucchini, cut into 1-inch pieces",
+        "1 red onion, cut into 1-inch pieces",
+        "2 tbsp olive oil",
+        "2 cloves garlic, minced",
+        "1 tsp dried oregano",
+        "1 tbsp lemon juice",
+        "Salt and pepper to taste"
+      ],
+      "steps": [
+        "In a bowl, combine chicken, olive oil, garlic, oregano, lemon juice, salt, and pepper",
+        "Toss to coat and marinate for at least 30 minutes",
+        "Thread chicken and vegetables onto skewers, alternating between chicken and vegetables",
+        "Preheat grill or grill pan to medium-high heat",
+        "Grill skewers for 10-12 minutes, turning occasionally, until chicken is cooked through and vegetables are tender",
+        "Serve immediately"
+      ],
+      "nutrition": {
+        "Calories": "280",
+        "Protein": "30g",
+        "Carbs": "10g",
+        "Fat": "14g",
+        "Fiber": "3g"
+      }
+    },
+    {
+      "id": 38,
+      "title": "Cottage Cheese with Pineapple",
+      "category": "protein",
+      "image": "images/HP 6.jpg",
+      "shortDescription": "Creamy cottage cheese topped with fresh pineapple chunks.",
+      "ingredients": [
+        "1 cup cottage cheese",
+        "1 cup fresh pineapple chunks",
+        "1 tbsp chopped nuts (optional)",
+        "1 tsp honey or maple syrup (optional)"
+      ],
+      "steps": [
+        "Place cottage cheese in a bowl",
+        "Top with fresh pineapple chunks",
+        "Sprinkle with chopped nuts if using",
+        "Drizzle with honey or maple syrup if desired",
+        "Serve immediately"
+      ],
+      "nutrition": {
+        "Calories": "220",
+        "Protein": "25g",
+        "Carbs": "25g",
+        "Fat": "3g",
+        "Fiber": "2g"
+      }
+    },
+    {
+      "id": 39,
+      "title": "Baked Salmon with Garlic",
+      "category": "protein",
+      "image": "images/HP 7.jpg",
+      "shortDescription": "Oven-baked salmon seasoned with garlic and herbs.",
+      "ingredients": [
+        "2 salmon fillets",
+        "2 tbsp olive oil",
+        "3 cloves garlic, minced",
+        "1 tbsp fresh lemon juice",
+        "1 tsp dried herbs (thyme, rosemary, or dill)",
+        "Salt and pepper to taste",
+        "Lemon wedges for serving"
+      ],
+      "steps": [
+        "Preheat oven to 400°F (200°C)",
+        "Place salmon fillets on a baking sheet lined with parchment paper",
+        "In a small bowl, combine olive oil, garlic, lemon juice, dried herbs, salt, and pepper",
+        "Drizzle mixture over salmon fillets",
+        "Bake for 12-15 minutes until salmon is cooked through",
+        "Serve with lemon wedges"
+      ],
+      "nutrition": {
+        "Calories": "380",
+        "Protein": "35g",
+        "Carbs": "2g",
+        "Fat": "26g",
+        "Fiber": "0g"
+      }
+    },
+    {
+      "id": 40,
+      "title": "Black Bean & Quinoa Bowl",
+      "category": "protein",
+      "image": "images/HP 8.jpg",
+      "shortDescription": "High-fiber and protein-packed plant-based power bowl.",
+      "ingredients": [
+        "1 cup cooked quinoa",
+        "1 can black beans, rinsed and drained",
+        "1/2 cup corn kernels",
+        "1/4 cup red onion, diced",
+        "1/4 cup bell pepper, diced",
+        "1 avocado, sliced",
+        "2 tbsp lime juice",
+        "1 tbsp olive oil",
+        "1 tsp cumin",
+        "Salt and pepper to taste",
+        "Fresh cilantro for garnish"
+      ],
+      "steps": [
+        "In a bowl, combine quinoa, black beans, corn, red onion, and bell pepper",
+        "In a small bowl, whisk together lime juice, olive oil, cumin, salt, and pepper",
+        "Drizzle dressing over quinoa mixture and toss to combine",
+        "Top with avocado slices",
+        "Garnish with fresh cilantro",
+        "Serve immediately"
+      ],
+      "nutrition": {
+        "Calories": "450",
+        "Protein": "18g",
+        "Carbs": "65g",
+        "Fat": "16g",
+        "Fiber": "18g"
+      }
+    },
+    {
+      "id": 41,
+      "title": "Vegetable Stir-Fry with Tofu",
+      "category": "vegetarian",
+      "image": "images/veg 1.jpg",
+      "shortDescription": "Stir-fried tofu and veggies in sesame soy sauce.",
+      "ingredients": [
+        "1 block firm tofu, pressed and cubed",
+        "2 cups mixed vegetables (bell peppers, broccoli, carrots, snap peas)",
+        "2 cloves garlic, minced",
+        "1 tbsp ginger, grated",
+        "3 tbsp soy sauce",
+        "1 tbsp sesame oil",
+        "1 tbsp vegetable oil",
+        "1 tsp cornstarch",
+        "2 tbsp water",
+        "Sesame seeds for garnish"
+      ],
+      "steps": [
+        "Heat vegetable oil in a wok or large pan over medium-high heat",
+        "Add tofu and cook until golden on all sides, then remove from pan",
+        "Add garlic and ginger and stir for 30 seconds",
+        "Add vegetables and stir-fry for 5-7 minutes until crisp-tender",
+        "In a small bowl, whisk together soy sauce, sesame oil, cornstarch, and water",
+        "Return tofu to the pan and pour sauce over vegetables and tofu",
+        "Cook for another 2 minutes until sauce thickens",
+        "Sprinkle with sesame seeds and serve immediately"
+      ],
+      "nutrition": {
+        "Calories": "320",
+        "Protein": "20g",
+        "Carbs": "20g",
+        "Fat": "18g",
+        "Fiber": "6g"
+      }
+    },
+    {
+      "id": 42,
+      "title": "Lentil & Spinach Curry",
+      "category": "vegetarian",
+      "image": "images/veg 2.jpg",
+      "shortDescription": "Hearty lentil curry simmered with coconut milk and spinach.",
+      "ingredients": [
+        "1 cup brown or green lentils, rinsed",
+        "1 can coconut milk",
+        "2 cups fresh spinach",
+        "1 onion, diced",
+        "3 cloves garlic, minced",
+        "1 tbsp ginger, grated",
+        "1 tsp turmeric",
+        "1 tsp cumin",
+        "1/2 tsp cayenne pepper (optional)",
+        "1 tbsp vegetable oil",
+        "Salt to taste",
+        "Cooked rice for serving",
+        "Fresh cilantro for garnish"
+      ],
+      "steps": [
+        "Heat vegetable oil in a large pan over medium heat",
+        "Add onion and sauté until softened",
+        "Add garlic, ginger, turmeric, cumin, and cayenne pepper and cook for another minute",
+        "Add lentils, coconut milk, and 2 cups water",
+        "Bring to a boil, then reduce heat and simmer for 25-30 minutes until lentils are tender",
+        "Add spinach and cook until wilted",
+        "Season with salt",
+        "Serve over rice and garnish with fresh cilantro"
+      ],
+      "nutrition": {
+        "Calories": "380",
+        "Protein": "16g",
+        "Carbs": "40g",
+        "Fat": "18g",
+        "Fiber": "14g"
+      }
+    },
+    {
+      "id": 43,
+      "title": "Chickpea & Avocado Salad",
+      "category": "vegetarian",
+      "image": "images/veg 3.jpg",
+      "shortDescription": "A refreshing salad with creamy avocado and chickpeas",
+      "ingredients": [
+        "1 can chickpeas, rinsed and drained",
+        "1 avocado, diced",
+        "1/4 cup red onion, finely chopped",
+        "1 cup cherry tomatoes, halved",
+        "1/4 cup fresh parsley, chopped",
+        "2 tbsp olive oil",
+        "1 tbsp lemon juice",
+        "Salt and pepper to taste"
+      ],
+      "steps": [
+        "In a large bowl, combine chickpeas, avocado, red onion, cherry tomatoes, and parsley",
+        "In a small bowl, whisk together olive oil, lemon juice, salt, and pepper",
+        "Pour dressing over the salad and toss gently to combine",
+        "Taste and adjust seasoning if needed",
+        "Serve immediately"
+      ],
+      "nutrition": {
+        "Calories": "320",
+        "Protein": "12g",
+        "Carbs": "30g",
+        "Fat": "20g",
+        "Fiber": "12g"
+      }
+    },
+    {
+      "id": 44,
+      "title": "Stuffed Sweet Potatoes",
+      "category": "vegetarian",
+      "image": "images/veg 4.jpg",
+      "shortDescription": "Sweet potatoes filled with beans, corn, and salsa.",
+      "ingredients": [
+        "2 medium sweet potatoes",
+        "1 can black beans, rinsed and drained",
+        "1/2 cup corn kernels",
+        "1/4 cup salsa",
+        "1/4 cup Greek yogurt or sour cream",
+        "1/4 cup avocado, diced",
+        "2 tbsp shredded cheese (optional)",
+        "Salt and pepper to taste",
+        "Fresh cilantro for garnish"
+      ],
+      "steps": [
+        "Preheat oven to 400°F (200°C)",
+        "Pierce sweet potatoes several times with a fork",
+        "Bake for 45-60 minutes until tender",
+        "In a bowl, combine black beans, corn, salsa, salt, and pepper",
+        "When sweet potatoes are cool enough to handle, slice them open lengthwise",
+        "Fluff the flesh with a fork",
+        "Divide bean mixture among sweet potatoes",
+        "Top with Greek yogurt or sour cream, avocado, and cheese if using",
+        "Garnish with fresh cilantro and serve immediately"
+      ],
+      "nutrition": {
+        "Calories": "380",
+        "Protein": "14g",
+        "Carbs": "70g",
+        "Fat": "10g",
+        "Fiber": "16g"
+      }
+    },
+    {
+      "id": 45,
+      "title": "Caprese Zoodles",
+      "category": "vegetarian",
+      "image": "images/veg 5.jpg",
+      "shortDescription": "Zucchini noodles with mozzarella, tomatoes, and basil.",
+      "ingredients": [
+        "2 medium zucchinis, spiralized",
+        "1 cup cherry tomatoes, halved",
+        "1/2 cup fresh mozzarella balls, halved",
+        "1/4 cup fresh basil, chopped",
+        "2 tbsp olive oil",
+        "1 tbsp balsamic vinegar",
+        "Salt and pepper to taste"
+      ],
+      "steps": [
+        "In a large bowl, combine zucchini noodles, cherry tomatoes, mozzarella, and basil",
+        "In a small bowl, whisk together olive oil, balsamic vinegar, salt, and pepper",
+        "Drizzle dressing over zoodle mixture and toss gently to combine",
+        "Serve immediately"
+      ],
+      "nutrition": {
+        "Calories": "220",
+        "Protein": "12g",
+        "Carbs": "12g",
+        "Fat": "16g",
+        "Fiber": "4g"
+      }
+    },
+    {
+      "id": 46,
+      "title": "Vegetarian Chili",
+      "category": "vegetarian",
+      "image": "images/veg 6.jpg",
+      "shortDescription": "A hearty mix of beans, corn, and bell peppers.",
+      "ingredients": [
+        "1 can kidney beans, rinsed and drained",
+        "1 can black beans, rinsed and drained",
+        "1 can pinto beans, rinsed and drained",
+        "1 can diced tomatoes",
+        "1 cup corn kernels",
+        "1 bell pepper, diced",
+        "1 onion, diced",
+        "2 cloves garlic, minced",
+        "1 tbsp chili powder",
+        "1 tsp cumin",
+        "1/2 tsp oregano",
+        "Salt and pepper to taste",
+        "Toppings: avocado, sour cream, cheese, cilantro"
+      ],
+      "steps": [
+        "In a large pot, sauté onion and bell pepper until softened",
+        "Add garlic and cook for another minute",
+        "Add chili powder, cumin, and oregano and stir to coat vegetables",
+        "Add all beans, diced tomatoes, and corn",
+        "Bring to a boil, then reduce heat and simmer for 30 minutes",
+        "Season with salt and pepper",
+        "Serve hot with desired toppings"
+      ],
+      "nutrition": {
+        "Calories": "320",
+        "Protein": "16g",
+        "Carbs": "55g",
+        "Fat": "4g",
+        "Fiber": "18g"
+      }
+    },
+    {
+      "id": 47,
+      "title": "Mushroom Risotto",
+      "category": "vegetarian",
+      "image": "images/veg 7.jpg",
+      "shortDescription": "Creamy risotto cooked with mushrooms and veggie broth",
+      "ingredients": [
+        "1 cup arborio rice",
+        "4 cups vegetable broth",
+        "2 cups mixed mushrooms, sliced",
+        "1/2 cup white wine (optional)",
+        "1 onion, finely chopped",
+        "2 cloves garlic, minced",
+        "2 tbsp butter",
+        "1/4 cup parmesan cheese, grated",
+        "2 tbsp fresh parsley, chopped",
+        "Salt and pepper to taste"
+      ],
+      "steps": [
+        "In a saucepan, heat vegetable broth and keep warm",
+        "In a large pan, melt 1 tbsp butter over medium heat",
+        "Add mushrooms and cook until golden, then remove from pan",
+        "In the same pan, melt remaining butter",
+        "Add onion and cook until softened",
+        "Add garlic and cook for another minute",
+        "Add rice and stir to coat with butter",
+        "If using, add wine and cook until absorbed",
+        "Add warm broth, one ladle at a time, stirring frequently and waiting until liquid is absorbed before adding more",
+        "Continue until rice is creamy and tender, about 20 minutes",
+        "Stir in cooked mushrooms, parmesan cheese, and parsley",
+        "Season with salt and pepper",
+        "Serve immediately"
+      ],
+      "nutrition": {
+        "Calories": "420",
+        "Protein": "14g",
+        "Carbs": "65g",
+        "Fat": "12g",
+        "Fiber": "4g"
+      }
+    },
+    {
+      "id": 48,
+      "title": "Grilled Veggie Wrap",
+      "category": "vegetarian",
+      "image": "images/veg 8.jpg",
+      "shortDescription": "Roasted vegetables wrapped with hummus in a tortilla.",
+      "ingredients": [
+        "1 whole wheat tortilla",
+        "1/4 cup hummus",
+        "1/2 cup mixed vegetables (zucchini, bell peppers, eggplant), sliced and grilled",
+        "1/4 cup spinach leaves",
+        "2 tbsp feta cheese, crumbled (optional)",
+        "1 tbsp olives, sliced (optional)"
+      ],
+      "steps": [
+        "Warm the tortilla in a dry pan or microwave",
+        "Spread hummus evenly over the tortilla",
+        "Layer with grilled vegetables, spinach, feta cheese if using, and olives if using",
+        "Roll up the tortilla, tucking in the sides as you go",
+        "Cut in half and serve immediately"
+      ],
+      "nutrition": {
+        "Calories": "320",
+        "Protein": "12g",
+        "Carbs": "45g",
+        "Fat": "12g",
+        "Fiber": "8g"
+      }
+    }
+  ]
+}

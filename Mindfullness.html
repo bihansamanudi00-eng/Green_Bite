@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindfulness Page</title>
+    <link rel="stylesheet" href="Style/Mindfullness.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Text:ital@0;1&family=Federant&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="icon" type="image/png" href="fav.2ico/favicon.ico">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#4CAF50">
+  </head>
+  <body>
+    <!-- HEADER-->
+    <header>
+      <nav>
+          <ul class="nav-bar">
+              <li class="logo">
+                  <a href="GreenBite.html"><img src="images/logo2.jpg" alt="logo"></a>
+              </li>
+              <li class="menu-container">
+                  <input type="checkbox" id="check">
+                  <ul class="menu">
+                      <li><a href="index.html">HOME</a></li>
+                      <li><a href="Recepies.html">RECIPES</a></li>
+                      <li><a href="calories and nutrition calculator.html">CALCULATOR</a></li>
+                      <li><a href="Workouts.html">WORKOUT</a></li>
+                      <li><a href="Mindfullness.html">MINDFULNESS</a></li>
+                      <li><a href="Contact.html">CONTACT US</a></li>
+                      <li><label for="check" class="close-menu"><i class="fas fa-times"></i></label></li>
+                  </ul>
+              </li>
+              <li><label for="check" class="open-menu"><i class="fas fa-bars"></i></label></li>
+          </ul>
+      </nav>
+    </header>
+    <br>
+
+    <section class="hero-section" aria-label="Hero Section"></section>
+
+    <div class="content-wrapper">
+      <h1 class="content-wrapper__title">Benefits of Mindful Breathing</h1>
+      <p class="content-wrapper__paragraph">
+        Mindful breathing is a simple yet powerful practice that brings your
+        awareness to the present moment. It calms the nervous system, reduces
+        anxiety, and enhances concentration, helping the mind to stay grounded
+        and focused.
+      </p>
+      <p class="content-wrapper__paragraph">
+        By focusing on your breath, you can lower blood pressure, regulate
+        emotions, and lift your mood, fostering a deep sense of calm and balance
+        in daily life.
+      </p>
+      <blockquote class="content-wrapper__quote">
+        "Pause. Breathe. Notice. Mindful breathing is a gentle reminder that
+        peace resides within."
+      </blockquote>
+    </div>
+
+    <!-- Mindfulness Features Section -->
+    <section class="mind-features">
+      <h2>How this Page Works</h2>
+      <p>Everything you need to find your inner peace, one breath at a time</p>
+
+      <div class="mind-features-grid">
+        <div class="mind-feature">
+          <h3>Breathing Guide</h3>
+          <p>
+            Follow our visual animations that guide you through perfect
+            inhale/exhale cycles. Sync your breath with the expanding circle to
+            achieve deep relaxation.
+          </p>
+        </div>
+
+        <div class="mind-feature">
+          <h3>Session Timer</h3>
+          <p>
+            Set your ideal meditation duration or choose from preset Pomodoro
+            intervals. The gentle timer keeps you focused without breaking your
+            zen.
+          </p>
+        </div>
+
+        <div class="mind-feature">
+          <h3>Ambient Sounds</h3>
+          <p>
+            Enhance your practice with curated soundscapes. Toggle rain, forest,
+            or white noise on/off to create your perfect audio environment.
+          </p>
+        </div>
+
+        <div class="mind-feature">
+          <h3>Progress Tracker</h3>
+          <p>
+            Automatically record your completed sessions in your browser. Your
+            mindfulness journey is stored privately and securely on your device.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <!-- Stats Dashboard -->
+      <section class="stats-dashboard" aria-label="Statistics Dashboard">
+        <div class="stat-card">
+          <div class="stat-number" id="todaySessions">0</div>
+          <div class="stat-label">Today's Sessions</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" id="totalCompleted">0</div>
+          <div class="stat-label">Total Completed</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" id="activeSounds">0</div>
+          <div class="stat-label">Active Sounds</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" id="timeDisplay">25:00</div>
+          <div class="stat-label">Time Left</div>
+        </div>
+      </section>
+
+      <div class="content-grid">
+        <!-- Breathing Section -->
+        <section class="breathing-section">
+          <h2>Guided Breathing</h2>
+
+          <div class="breathing-controls">
+            <button id="breathingToggle" class="breathing-btn active">
+              Start Breathing
+            </button>
+          </div>
+
+          <div class="breathing-container">
+            <div class="breathing-circle" id="breathingCircle">
+              <div class="breathing-text" id="breathingText">Press Start</div>
+            </div>
+          </div>
+
+          <div class="breathing-instructions">
+            <p>• Inhale for 4 seconds</p>
+            <p>• Hold for 2 seconds</p>
+            <p>• Exhale for 6 seconds</p>
+            <p>• Pause for 1 second</p>
+          </div>
+        </section>
+
+        <!-- Timer Section -->
+        <section class="timer-section">
+          <h2>Meditation Timer</h2>
+
+          <!-- Timer Mode Selection -->
+          <div class="timer-mode-selector">
+            <button class="mode-btn active" data-mode="pomodoro">
+              Pomodoro (25m)
+            </button>
+            <button class="mode-btn" data-mode="meditation">
+              Meditation (10m)
+            </button>
+          </div>
+
+          <!-- Timer Display -->
+          <div class="timer-display" id="timerDisplay">25:00</div>
+
+          <!-- Timer Controls -->
+          <div class="timer-controls">
+            <button id="timerToggle" class="timer-btn primary">
+              <i class="fas fa-play"></i>
+              <span>Start</span>
+            </button>
+            <button id="timerReset" class="timer-btn secondary">
+              <i class="fas fa-redo"></i>
+              <span>Reset</span>
+            </button>
+          </div>
+
+          <!-- Progress Bar -->
+          <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+          </div>
+        </section>
+      </div>
+
+      <!-- Ambient Sounds -->
+      <section class="sounds-section">
+        <h2>Ambient Sounds</h2>
+
+        <!-- Volume Control -->
+        <div class="volume-control">
+          <i class="fas fa-volume-down"></i>
+          <input
+            type="range"
+            id="volumeSlider"
+            min="0"
+            max="1"
+            step="0.1"
+            value="0.3"
+          >
+          <i class="fas fa-volume-up"></i>
+        </div>
+
+        <!-- Sound Buttons -->
+        <div class="sound-grid" id="soundGrid">
+          <!-- Sound buttons will be generated by JavaScript -->
+        </div>
+      </section>
+
+      <!-- Session Tracker -->
+      <section class="sessions-section">
+        <h2>Today's Sessions</h2>
+        <div class="sessions-grid" id="sessionsGrid">
+          <!-- Session items will be generated by JavaScript -->
+        </div>
+      </section>
+    </main>
+
+    <!--Footer-->
+
+    <div class="footer">
+      <div class="col-1">
+        <h3><u> USEFUL LINKS</u></h3>
+        <a href="index.html">HOME</a>
+        <a href="Recepies.html">RECIPES</a>
+        <a href="calories_and_nutrition_calculator.html">CALCULATOR</a>
+        <a href="Workouts.html">WORKOUT</a>
+        <a href="Mindfullness.html">MINDFULNESS</a>
+        <a href="Contact.html">CONTACT US</a>
+      </div>
+
+      <div class="col-2">
+        <h3><u>NEWSLETTER</u></h3>
+        <form id="newsletterForm" class="footer-form">
+          <input
+            type="email"
+            id="newsletterEmail"
+            placeholder="Your Email Address"
+            required
+          >
+          <button type="submit">Join Now</button>
+        </form>
+        <p id="newsletterMessage" style="display: none; margin-top: 10px"></p>
+      </div>
+
+      <div class="col-3">
+        <h3><u>CONTACT</u></h3>
+        <p>
+          131/1A,<br>Saranankara Road,<br>Kudabuthgamuwa,<br>Mulleriyawa.
+        </p>
+        <div class="social-icons">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-linkedin"></i>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>
+        © 2025 GreenBite.<br>
+        All Rights Reserved.
+      </p>
+    </div>
+    <script src="Script/utilis.js"></script>
+    <script src="Script/Mindfulness.js"></script>
+  </body>
+</html>

@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workout Generator Page</title>
+    <link rel="stylesheet" href="Style/Workout .css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Text:ital@0;1&family=Federant&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="icon" type="image/png" href="fav.2ico/favicon.ico">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#4CAF50">
+  </head>
+  <body>
+     <!-- HEADER-->
+    <header>
+      <nav>
+          <ul class="nav-bar">
+              <li class="logo">
+                  <a href="GreenBite.html"><img src="images/logo2.jpg" alt="logo"></a>
+              </li>
+              <li class="menu-container">
+                  <input type="checkbox" id="check">
+                  <ul class="menu">
+                      <li><a href="index.html">HOME</a></li>
+                      <li><a href="Recepies.html">RECIPES</a></li>
+                      <li><a href="calories-and-nutrition-calculator.html">CALCULATOR</a></li>
+                      <li><a href="Workouts.html">WORKOUT</a></li>
+                      <li><a href="Mindfullness.html">MINDFULNESS</a></li>
+                      <li><a href="Contact.html">CONTACT US</a></li>
+                      <li><label for="check" class="close-menu"><i class="fas fa-times"></i></label></li>
+                  </ul>
+              </li>
+              <li><label for="check" class="open-menu"><i class="fas fa-bars"></i></label></li>
+          </ul>
+      </nav>
+    </header>
+    <div class="wp-container">
+      <div class="wp-header">
+        <h1>What is Workout Planner?</h1>
+        <p>
+          A simple tool to organize your daily workouts. Select your exercises,
+          plan sessions, and stay consistent with your fitness journey.
+        </p>
+      </div>
+
+      <!-- grid of workout-->
+      <div class="grid-container">
+        <img src="images/workout6.jpg" alt="Left Full" class="left-vertical">
+        <img src="images/workout2.jpg" alt="Image 1">
+        <img src="images/workout3.jpg" alt="Image 2">
+        <img src="images/workout4.jpg" alt="Image 3">
+        <img src="images/workout5.jpg" alt="Image 4">
+        <img src="images/workout1.jpg" alt="Image 5">
+        <video
+          src="videos/workout 2.mp4"
+          controls
+          autoplay
+          muted
+          loop
+          class="workout-video"
+        ></video>
+      </div>
+    </div>
+
+    <div class="rwg-container">
+      <header>
+        <h1 style="color: darkgrey;">Random Workout Generator</h1>
+        <p class="rwg-subtitle">
+          Create a personalized workout plan based on your preferences
+        </p>
+      </header>
+
+      <div class="rwg-main-content">
+        <div class="rwg-card">
+          <h2 class="rwg-card-title">
+            <i class="fas fa-dumbbell"></i>
+            Workout Preferences
+          </h2>
+          <form id="rwg-workout-form">
+            <div class="rwg-form-group">
+              <label for="rwg-body-part">Select Body Part</label>
+              <select id="rwg-body-part">
+                <option value="full-body">Full Body</option>
+                <option value="arms">Arms</option>
+                <option value="legs">Legs</option>
+                <option value="core">Core</option>
+              </select>
+            </div>
+
+            <div class="rwg-form-group">
+              <label for="rwg-equipment">Available Equipment</label>
+              <select id="rwg-equipment">
+                <option value="none">None (Bodyweight)</option>
+                <option value="dumbbells">Dumbbells</option>
+                <option value="machine">Machine</option>
+                <option value="bands">Resistance Bands</option>
+              </select>
+            </div>
+
+            <button type="submit" class="rwg-btn">Generate Workout Plan</button>
+          </form>
+        </div>
+
+        <div class="rwg-card">
+          <h2 class="rwg-card-title">
+            <i class="fas fa-list-ul"></i>
+            Your Workout Plan
+          </h2>
+          <div id="rwg-workout-plan">
+            <div class="rwg-empty-state">
+              <i class="fas fa-clipboard-list"></i>
+              <p>Generate a workout plan to get started</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="rwg-card rwg-timer-container">
+        <h2 class="rwg-card-title">
+          <i class="fas fa-stopwatch"></i>
+          Exercise Timer
+        </h2>
+        <div class="rwg-timer-display">
+          <div class="rwg-timer-circle" id="rwg-timer-circle">
+            <div class="rwg-timer-text" id="rwg-timer-text">00:00</div>
+          </div>
+          <div class="rwg-current-exercise" id="rwg-current-exercise">
+            Select an exercise to start the timer
+          </div>
+          <div class="rwg-timer-controls">
+            <button class="rwg-timer-btn" id="rwg-start-timer">
+              <i class="fas fa-play"></i> Start
+            </button>
+            <button class="rwg-timer-btn" id="rwg-pause-timer">
+              <i class="fas fa-pause"></i> Pause
+            </button>
+            <button class="rwg-timer-btn" id="rwg-reset-timer">
+              <i class="fas fa-redo"></i> Reset
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="rwg-notification" id="rwg-notification">
+      <span id="rwg-notification-text"></span>
+    </div>
+
+    <!-- benefits discribe-->
+    <section class="full-section">
+      <div class="full-text">
+        <h2 class="full-title">
+          <b>Benefits Of WorkingOut</b> <br>
+          <u>Full Body Workouts</u>
+        </h2>
+        <p class="full-p">
+          <i
+            >Full body workouts improve overall strength, endurance, and balance
+            by engaging multiple muscle groups at once. They also burn more
+            calories, making them great for weight management and overall
+            fitness.</i
+          >
+        </p>
+      </div>
+      <div class="full-image">
+        <img class="full-img" src="images/full.jpg" alt="Full body workout">
+      </div>
+    </section>
+
+    <section class="arm-section">
+      <div class="arm-text">
+        <h2 class="arm-title"><u>Arms Workouts</u> <br></h2>
+        <p class="arm-p">
+          <i
+            >Training the arms builds strength for everyday activities like
+            lifting, carrying, and pushing. Strong arms also improve upper body
+            posture and give better support for sports and other exercises.</i
+          >
+        </p>
+      </div>
+      <div class="arm-image">
+        <img class="arm-img" src="images/arm.jpg" alt="Arm workout">
+      </div>
+    </section>
+
+    <section class="leg-section">
+      <div class="leg-text">
+        <h2 class="leg-title"><u>Leg Workouts</u> <br></h2>
+        <p class="leg-p">
+          <i
+            >Leg workouts strengthen the largest muscles in the body, boosting
+            metabolism and calorie burn. They also improve stability, balance,
+            and mobility, making daily movement and athletic activities
+            easier.</i
+          >
+        </p>
+      </div>
+      <div class="leg-image">
+        <img class="leg-img" src="images/leg2.jpg" alt="Leg workout">
+      </div>
+    </section>
+
+    <section class="core-section">
+      <div class="core-text">
+        <h2 class="core-title"><u>Core Workouts</u> <br></h2>
+        <p class="core-p">
+          <i
+            >A strong core supports the spine, improves posture, and reduces the
+            risk of back pain. It also enhances performance in all other
+            workouts, since nearly every movement relies on core stability.</i
+          >
+        </p>
+      </div>
+
+      <div class="core-image">
+        <img class="core-img" src="images/core.jpg" alt="Core workout">
+      </div>
+    </section>
+
+    <!-- healthy benefit section-->
+    <section class="sleep-section">
+      <div class="sleep-image">
+        <img class="sleep-img" src="images/sleep.jpg" alt="Better sleep from exercise">
+      </div>
+      <div class="sleep-text">
+        <h2 class="sleep-title">
+          <b>Benifits of Workingout in Health Side</b><br>
+          <u>About Us</u>
+        </h2>
+        <p class="sleep-p">
+          <i>
+            Exercise improves sleep quality by helping the body relax and
+            regulate its natural sleep cycle. People who work out regularly
+            often fall asleep faster, stay asleep longer, and wake up feeling
+            more energized.
+          </i>
+        </p>
+      </div>
+    </section>
+
+    <section class="strong-section">
+      <div class="strong-image">
+        <img class="strong-img" src="images/system.jpg" alt="Stronger immune system">
+      </div>
+      <div class="strong-text">
+        <h2 class="strong-title">
+          <u>Stronger Immune System</u>
+        </h2>
+        <p class="strong-p">
+          <i
+            >Physical activity boosts blood circulation and supports the
+            movement of immune cells throughout the body. This makes it easier
+            for the body to fight off infections, colds, and other illnesses.</i
+          >
+        </p>
+      </div>
+    </section>
+
+    <section class="balance-section">
+      <div class="balance-image">
+        <img class="balance-img" src="images/hormone.jpg" alt="Hormone balance">
+      </div>
+      <div class="balance-text">
+        <h2 class="balance-title">
+          <u>Hormone Balance</u>
+        </h2>
+        <p class="balance-p">
+          <i
+            >Working out helps regulate important hormones like insulin,
+            cortisol, and endorphins. This not only stabilizes mood and reduces
+            stress but also supports a healthy metabolism and overall energy
+            levels.</i
+          >
+        </p>
+      </div>
+    </section>
+
+    <section class="skin-section">
+      <div class="skin-image">
+        <img class="balance-img" src="images/skin.jpg" alt="Healthy skin">
+      </div>
+      <div class="skin-text">
+        <h2 class="skin-title">
+          <u>Healthy Skin</u>
+        </h2>
+        <p class="skin-p">
+          <i
+            >Exercise increases blood flow, which delivers oxygen and nutrients
+            to the skin. Sweating also helps flush out toxins, giving the skin a
+            clearer, healthier glow.</i
+          >
+        </p>
+      </div>
+    </section>
+
+    <!-- FOOTER-->
+    <div class="footer">
+      <div class="col-1">
+        <h3><u> USEFUL LINKS</u></h3>
+        <a href="index.html">HOME</a>
+        <a href="Recepies.html">RECIPES</a>
+        <a href="calories-and-nutrition-calculator.html">CALCULATOR</a>
+        <a href="Workouts.html">WORKOUT</a>
+        <a href="Mindfullness.html">MINDFULNESS</a>
+        <a href="Contact.html">CONTACT US</a>
+      </div>
+
+      <div class="col-2">
+        <h3><u>NEWSLETTER</u></h3>
+        <form id="newsletterForm" class="footer-form">
+          <input
+            type="email"
+            id="newsletterEmail"
+            placeholder="Your Email Address"
+            required
+          >
+          <button type="submit">Join Now</button>
+        </form>
+        <p id="newsletterMessage" style="display: none; margin-top: 10px"></p>
+      </div>
+
+      <div class="col-3">
+        <h3><u>CONTACT</u></h3>
+        <p>
+          131/1A,<br>
+          Saranankara Road,<br>
+          Kudabuthgamuwa,<br>
+          Mulleriyawa.
+        </p>
+        <div class="social-icons">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-linkedin"></i>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>
+        © 2025 GreenBite.<br>
+        All Rights Reserved.
+      </p>
+    </div>
+    <script src="Script/utilis.js"></script>
+    <script src="Script/Workout.js"></script>
+  </body>
+</html>

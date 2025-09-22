@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calorie & Nutrition Calculator</title>
+    <link rel="stylesheet" href="Style/Calculator.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Text:ital@0;1&family=Federant&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="icon" type="image/png" href="fav.2ico/favicon.ico">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#4CAF50">
+  </head>
+  <body>
+    
+      <header>
+      <nav>
+          <ul class="nav-bar">
+              <li class="logo">
+                  <a href="GreenBite.html"><img src="images/logo2.jpg" alt="logo"></a>
+              </li>
+              <li class="menu-container">
+                  <input type="checkbox" id="check">
+                  <ul class="menu">
+                      <li><a href="index.html">HOME</a></li>
+                      <li><a href="Recepies.html">RECIPES</a></li>
+                      <li><a href="calories and nutrition calculator.html">CALCULATOR</a></li>
+                      <li><a href="Workouts.html">WORKOUT</a></li>
+                      <li><a href="Mindfullness.html">MINDFULNESS</a></li>
+                      <li><a href="Contact.html">CONTACT US</a></li>
+                      <li><label for="check" class="close-menu"><i class="fas fa-times"></i></label></li>
+                  </ul>
+              </li>
+              <li><label for="check" class="open-menu"><i class="fas fa-bars"></i></label></li>
+          </ul>
+      </nav>
+    </header>
+
+    
+<section class="calc-hero-container">
+    <div class="calc-hero-content">
+        <div class="calc-hero-label">SMART NUTRITION TRACKING</div>
+        <h1 class="calc-hero-headline">Calculate Your <span class="calc-hero-accent">Perfect Calorie Balance</span></h1>
+        <p class="calc-hero-desc">Discover your unique metabolic needs with our advanced calculator. Get precise recommendations tailored to your body, lifestyle, and goals.</p>
+        <div class="calc-hero-cta">
+            <a href="#calculator-form" class="calc-hero-button">Start Calculating →</a>
+            <div class="calc-hero-stats">
+                <div class="calc-hero-stat">
+                    <span class="calc-hero-stat-number">Personalized</span>
+                    <span class="calc-hero-stat-label">To Your Body</span>
+                </div>
+                <div class="calc-hero-stat">
+                    <span class="calc-hero-stat-number">Science-Backed</span>
+                    <span class="calc-hero-stat-label">Results</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Decorative elements -->
+    <div class="calc-hero-shape-1"></div>
+    <div class="calc-hero-shape-2"></div>
+</section>
+    <br>
+
+   
+      <h3>Activity Levels(Depending in your Level)</h3>
+
+      <table class="activity-table">
+        <tr>
+          <th>Activity Level</th>
+          <th>Multiplier</th>
+          <th>Description</th>
+        </tr>
+        <tr>
+          <td>Sedentary</td>
+          <td>x 1.2</td>
+          <td>Little or no exercise (mostly sitting)</td>
+        </tr>
+        <tr>
+          <td>Lightly Active</td>
+          <td>x 1.375</td>
+          <td>Light exercise 1-3 days/week</td>
+        </tr>
+        <tr>
+          <td>Moderately Active</td>
+          <td>x 1.55</td>
+          <td>Moderate exercise 3-5 days/week</td>
+        </tr>
+        <tr>
+          <td>Very Active</td>
+          <td>x 1.725</td>
+          <td>Hard exercise 6-7 days/week</td>
+        </tr>
+        <tr>
+          <td>Super Active</td>
+          <td>x 1.9</td>
+          <td>Very intense exercise or physical job</td>
+        </tr>
+      </table>
+
+      <br>
+      <h3>Your Goals(Use your calorie estimate to reach your health goal)</h3>
+
+      <table class="goal-table">
+        <tr>
+          <th>Goal</th>
+          <th>Recommendation</th>
+        </tr>
+        <tr>
+          <td>Lose Weight</td>
+          <td>Aim for 500 kcal less per day</td>
+        </tr>
+        <tr>
+          <td>Maintain Weight</td>
+          <td>Eat around your daily calorie needs</td>
+        </tr>
+        <tr>
+          <td>Gain Weight</td>
+          <td>Eat 300-500 kcal more per day</td>
+        </tr>
+      </table>
+    <br>
+
+    <div class="quickfacts-container">
+      <div class="quickfact-card">
+        <img src="images/qf2.jpg" alt="Female Icon" class="qf-image">
+        <p class="qf-text">
+          Average women: <strong>1,800-2,400 calories/day</strong>
+        </p>
+      </div>
+
+      <div class="quickfact-card">
+        <img src="images/qf.jpg" alt="Male Icon" class="qf-image">
+        <p class="qf-text">
+          Average men: <strong>2,400-3,000 calories/day</strong>
+        </p>
+      </div>
+
+      <div class="quickfact-card">
+        <img src="images/qf3.jpg" alt="Lifestyle Icon" class="qf-image">
+        <p class="qf-text">Exact needs depend on your body and lifestyle</p>
+      </div>
+    </div>
+
+    <br>
+
+    <p class="p1">
+      <b>FIND OUT YOUR DAILY ENERY NEEDS AND NUTRITION GOALS!!!!!!! </b>
+    </p>
+
+    <main>
+      <form id="calc-form" class="form-grid">
+        <div class="card1">
+          <i class="fas fa-user"></i>
+          <label for="age">Age(Years)</label>
+          <input type="number" id="age" required>
+        </div>
+
+        <div class="card1">
+          <i class="fas fa-venus-mars"></i>
+          <label for="gender">Gender</label>
+          <select id="gender" required>
+            <option value="">---Select---</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+        </div>
+
+        <div class="card1">
+          <i class="fas fa-ruler-vertical"></i>
+          <label for="height">Height(cm)</label>
+          <input type="number" id="height" required>
+        </div>
+
+        <div class="card1">
+          <i class="fas fa-weight"></i>
+          <label for="weight">Weight(kg)</label>
+          <input type="number" id="weight" required>
+        </div>
+
+        <div class="card1">
+          <i class="fas fa-running"></i>
+          <label for="activity">Activity Level</label>
+          <select id="activity" required>
+            <option value="">---Select---</option>
+            <option value="1.2">Sedentary</option>
+            <option value="1.375">Lightly Active</option>
+            <option value="1.55">Moderately Active</option>
+            <option value="1.725">Very Active</option>
+            <option value="1.9">Extra Active</option>
+          </select>
+        </div>
+      </form>
+
+      <button type="submit" form="calc-form" class="submit-btn">
+        Calculate
+      </button>
+
+      <section id="results" class="results hidden">
+        <h2 class="YR">Your Results</h2>
+        <p><strong>BMR:</strong> <span id="bmr"></span> kcal/day</p>
+        <p><strong>TDEE:</strong> <span id="tdee"></span> kcal/day</p>
+
+        <div class="progress">
+          <p>Carbs: <span id="carbs"></span> g</p>
+          <div class="bar"><div id="carbs-bar" class="fill"></div></div>
+        </div>
+
+        <div class="progress">
+          <p>Protein: <span id="protein"></span> g</p>
+          <div class="bar"><div id="protein-bar" class="fill"></div></div>
+        </div>
+
+        <div class="progress">
+          <p>Fats: <span id="fats"></span> g</p>
+          <div class="bar"><div id="fats-bar" class="fill"></div></div>
+        </div>
+        <br>
+        
+        <p id="calories"></p>
+        <p id="calorie-message"></p>
+      </section>
+      <div class="metrics-container">
+    <div class="metric-card">
+        <h3>Basal Metabolic Rate (BMR)</h3>
+        <div class="circular-gauge" id="bmr-gauge">
+            <div class="gauge-background"></div>
+            <div class="gauge-fill" id="bmr-fill"></div>
+            <div class="gauge-center">
+                <div class="gauge-value" id="bmr-value">--</div>
+                <div class="gauge-label" id="bmr-label">Calculate</div>
+            </div>
+        </div>
+        <div class="gauge-ranges">
+            <div class="range low">Low<br>&lt;1400</div>
+            <div class="range medium">Medium<br>1400-2000</div>
+            <div class="range high">High<br>&gt;2000</div>
+        </div>
+        <div class="description">
+            <p>BMR is the number of calories your body needs to maintain basic functions at rest. It represents energy required for breathing, circulation, and cell production.</p>
+        </div>
+    </div>
+    
+    <div class="metric-card">
+        <h3>Total Daily Energy Expenditure (TDEE)</h3>
+        <div class="circular-gauge" id="tdee-gauge">
+            <div class="gauge-background"></div>
+            <div class="gauge-fill" id="tdee-fill"></div>
+            <div class="gauge-center">
+                <div class="gauge-value" id="tdee-value">--</div>
+                <div class="gauge-label" id="tdee-label">Calculate</div>
+            </div>
+        </div>
+        <div class="gauge-ranges">
+            <div class="range low">Low<br>&lt;1800</div>
+            <div class="range medium">Medium<br>1800-2600</div>
+            <div class="range high">High<br>&gt;2600</div>
+        </div>
+        <div class="description">
+            <p>TDEE is your total daily calorie burn, including BMR, physical activity, and food thermic effect. It helps determine calorie needs for weight goals.</p>
+        </div>
+    </div>
+</div>
+    </main>
+
+    <!-- footer-->
+    <div class="footer">
+      <div class="col-1">
+        <h3><u> USEFUL LINKS</u></h3>
+        <a href="index.html">HOME</a>
+        <a href="Recepies.html">RECIPES</a>
+        <a href="calories_and_nutrition_calculator.html">CALCULATOR</a>
+        <a href="Workouts.html">WORKOUT</a>
+        <a href="Mindfullness.html">MINDFULNESS</a>
+        <a href="Contact.html">CONTACT US</a>
+      </div>
+
+      <div class="col-2">
+        <h3><u>NEWSLETTER</u></h3>
+        <form id="newsletterForm" class="footer-form">
+          <input
+            type="email"
+            id="newsletterEmail"
+            placeholder="Your Email Address"
+            required
+          >
+          <button type="submit">Join Now</button>
+        </form>
+        <p id="newsletterMessage" style="display: none; margin-top: 10px"></p>
+      </div>
+
+      <div class="col-3">
+        <h3><u>CONTACT</u></h3>
+        <p>
+          131/1A,<br>Saranankara Road,<br>Kudabuthgamuwa,<br>Mulleriyawa.
+        </p>
+        <div class="social-icons">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-linkedin"></i>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>
+        © 2025 GreenBite.<br>
+        All Rights Reserved.
+      </p>
+    </div>
+    <script src="Script/Calculator.js"></script>
+  </body>
+</html>

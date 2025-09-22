@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact & Feedback Page</title>
+    <link rel="stylesheet" href="Style/Contact us.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Text:ital@0;1&family=Federant&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="icon" type="image/png" href="fav.2ico/favicon.ico">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#4CAF50">
+  </head>
+  <body>
+    <header>
+      <nav>
+          <ul class="nav-bar">
+              <li class="logo">
+                  <a href="GreenBite.html"><img src="images/logo2.jpg" alt="logo"></a>
+              </li>
+              <li class="menu-container">
+                  <input type="checkbox" id="check">
+                  <ul class="menu">
+                      <li><a href="index.html">HOME</a></li>
+                      <li><a href="Recepies.html">RECIPES</a></li>
+                      <li><a href="calories and nutrition calculator.html">CALCULATOR</a></li>
+                      <li><a href="Workouts.html">WORKOUT</a></li>
+                      <li><a href="Mindfullness.html">MINDFULNESS</a></li>
+                      <li><a href="Contact.html">CONTACT US</a></li>
+                      <li><label for="check" class="close-menu"><i class="fas fa-times"></i></label></li>
+                  </ul>
+              </li>
+              <li><label for="check" class="open-menu"><i class="fas fa-bars"></i></label></li>
+          </ul>
+      </nav>
+    </header>
+
+    <!-- FORM TO FILL-->
+    <section class="contact-container">
+      <h2 class="title">Get in Touch</h2>
+      <div class="contact-box">
+        <div class="contact-form">
+          <h3>Send a Message</h3>
+          <form>
+            <div class="form-row">
+              <div class="form-group">
+                <label>First Name</label>
+                <input type="text" placeholder="Your first name" required>
+              </div>
+              <div class="form-group">
+                <label>Last Name</label>
+                <input type="text" placeholder="Your last name" required>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label>Email</label>
+                <input type="email" placeholder="you@example.com" required>
+              </div>
+              <div class="form-group">
+                <label>Mobile</label>
+                <input type="text" placeholder="+94 712345678" required>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label>Message</label>
+              <textarea
+                rows="5"
+                placeholder="Write your message..."
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn">Send</button>
+          </form>
+        </div>
+        <!-- CONTACT US DETAILS-->
+        <div class="contact-info">
+          <h3>Contact Info</h3>
+          <p>
+            <i class="fa fa-map-marker"></i> 131/1A, Sri Saranakara Road,
+            Kudabuthgamuwa, Mulleriyawa
+          </p>
+          <p><i class="fa fa-envelope"></i> Greenbite@.com</p>
+          <p><i class="fa fa-phone"></i> 0702055647</p>
+
+          <div class="map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63322.09258139492!2d79.9303946!3d6.9331687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae25b89a7c6d7c9%3A0x2c3e0e9f0c9c5e7!2sKudabuthgamuwa%2C%20Sri%20Lanka!5e0!3m2!1sen!2slk!4v1692459999999!5m2!1sen!2slk"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FREQUENTLY ASK QUESTIONS-->
+    <section class="faq">
+      <h2>Frequently Asked Questions</h2>
+      <div class="faq-item">
+        <div class="faq-question">What is GreenBite?</div>
+        <div class="faq-answer">
+          GreenBite is a wellness initiative focused on healthy living, recipes,
+          and mindfulness tools.
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">Where is GreenBite HQ?</div>
+        <div class="faq-answer">Our HQ is located in Colombo, Sri Lanka.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">How can I contact support?</div>
+        <div class="faq-answer">
+          You can reach us via the contact form above or email
+          support@greenbite.com.
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="col-1">
+        <h3><u> USEFUL LINKS</u></h3>
+        <a href="index.html">HOME</a>
+        <a href="Recepies.html">RECIPES</a>
+        <a href="calories_and_nutrition_calculator.html">CALCULATOR</a>
+        <a href="Workouts.html">WORKOUT</a>
+        <a href="Mindfullness.html">MINDFULNESS</a>
+        <a href="Contact.html">CONTACT US</a>
+      </div>
+
+      <div class="col-2">
+        <h3><u>NEWSLETTER</u></h3>
+        <form id="newsletterForm" class="footer-form">
+          <input
+            type="email"
+            id="newsletterEmail"
+            placeholder="Your Email Address"
+            required
+          >
+          <button type="submit">Join Now</button>
+        </form>
+        <p id="newsletterMessage" style="display: none; margin-top: 10px"></p>
+      </div>
+
+      <div class="col-3">
+        <h3><u>CONTACT</u></h3>
+        <p>
+          131/1A,<br>Saranankara Road,<br>Kudabuthgamuwa,<br>Mulleriyawa.
+        </p>
+        <div class="social-icons">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-linkedin"></i>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>
+        © 2025 GreenBite.<br>
+        All Rights Reserved.
+      </p>
+    </div>
+    <script src="Script/Contact us.js"></script>
+  </body>
+</html>
