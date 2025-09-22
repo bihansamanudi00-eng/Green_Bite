@@ -1,7 +1,7 @@
 {
   "name": "GreenBite",
   "short_name": "GreenBite",
-  "start_url": "/index.html",
+  "start_url": "/GreenBite/index.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#4CAF50",
